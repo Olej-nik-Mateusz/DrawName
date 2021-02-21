@@ -4,50 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Draw a kiddo name</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-
-
-
-        button {
-            position: fixed;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            overflow: hidden;
-            width: 30vw;
-            padding: 10px 5px 10px 5px;
-            min-width: 130px;
-            max-width: 200px;
-            border-radius: 3px 3px 3px 3px;
-            border: solid cadetblue 2px;
-            font-size: 22px;
-            font-family: arial;
-            cursor: pointer;
-
-        }
-
-        div {
-            position: fixed;
-            top: 30%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 30px;
-            font-family: arial, sans-serif;
-            text-align: center;
-
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <button>Draw name</button>
-    <div></div>
-    <script src="main.js"></script>
+    <section>
+        <button class="draw">Draw name</button>
+        <div class=summary></div>
+    </section>
+    <section>
+        <form><input type="text"><button class="form">Add Name</button>
+            <div class="addName"></div>
+        </form>
+
+    </section>
+    <script src="main.js">
+    </script>
 </body>
 
 </html>

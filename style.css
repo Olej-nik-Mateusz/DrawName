@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button.draw {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 30vw;
+    padding: 10px 5px 10px 5px;
+    min-width: 130px;
+    max-width: 200px;
+    background-color: #D3F5ED;
+    border-radius: 3px 3px 3px 3px;
+    border: solid cadetblue 2px;
+    font-size: 22px;
+    font-family: arial;
+    cursor: pointer;
+}
+
+button.draw:hover {
+    /* box-sizing: content-box; */
+    background-color: #A8C4BE;
+    padding: 9px 5px 9px 5px;
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+div.summary {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+input {
+    background-color: #D3F5ED;
+    border: solid cadetblue 1px;
+    border-radius: 4px 4px 4px 4px;
+    font-family: arial;
+    padding: 3px;
+    font-size: 10px;
+}
+
+button.form {
+
+    margin-left: 5px;
+    padding: 3px;
+    background-color: #D3F5ED;
+    border: solid cadetblue 1px;
+    border-radius: 4px 4px 4px 4px;
+    font-family: arial;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+button.form:hover {
+    box-sizing: content-box;
+    background-color: #A8C4BE;
+    font-size: 10px;
+    transition: 0.2s;
+}
+
+.addName {
+    background-color: #D3F5ED;
+    border: solid cadetblue 1px;
+    border-radius: 4px 4px 4px 4px;
+    font-family: arial;
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 10px;
+    min-height: 50px;
+    max-width: 121.500px;
+    overflow-wrap: break-word;
+}
